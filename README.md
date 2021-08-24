@@ -1,8 +1,8 @@
 
 ![FreshlyBrewedBGIMG](https://user-images.githubusercontent.com/87110136/130547389-a963adb3-9876-4de4-ab67-cc76c9dee3b5.jpg)
-# Freshly-Brewed
+<h1 align="center">Freshly Brewed</h1>
 
-<div align="center">
+<div align="left">
   
 ## Connect with me:
 <p>
