@@ -5,7 +5,7 @@
 <div align="center">
   
 ## Connect with me:
-<p align="left">
+<p>
 <a href = "https://twitter.com/foreverakela_"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
 <a href = "https://www.instagram.com/____satyajeeeet/"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
 </p>
