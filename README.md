@@ -1,4 +1,5 @@
 # Freshly-Brewed
+![FreshlyBrewedBGIMG](https://user-images.githubusercontent.com/87110136/130547389-a963adb3-9876-4de4-ab67-cc76c9dee3b5.jpg)
 <div align="center">
 
 <a href="https://github.com/smaranjitghose/awesome-portfolio-websites"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
