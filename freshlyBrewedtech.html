@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DropdownMmenu</title>
+	
+<style>
+body{
+	background:url("FreshlyBrewedBGIMG.jpg")center no-repeat ;
+	height:100vh;
+	background-size:cover;
+	font-family:open sans;
+}
+
+.menudropdown{
+
+	text-decoration:none;
+	padding: 5px;
+	width:90%;
+	display: block;
+	margin:0px auto;
+	
+}
+
+.menudropdown ul {
+	padding: 0px;
+	
+}
+
+.menudropdown ul li{
+	float: left;
+	text-decoration:none;
+	font-family: open sans;
+	color:white ;
+	background-color: black;
+	width: 180px;
+	height: 50px;
+	line-height: 50px;
+	font-size:20px;
+	list-style:none;
+	text-align: center;
+	opacity: 0.5;
+}
+	
+	
+.menudropdown ul li ul{
+	display:none;
+}
+
+.menudropdown ul li:hover > ul{
+	display:block;
+}
+	
+.menudropdown ul li:hover {
+	background-color: gray;
+	opacity:0.9;
+}
+
+
+a:hover{
+	/*Changes the colour when links are hovered over with the mouse*/
+	color: #B4F8C8;
+	font-size:120%;
+	cursor:pointer;
+}
+	
+img:hover {
+transform: scale(1.1);
+}
+
+	
+a:link {
+  text-decoration: none;
+}
+	
+.active {
+  color: #EC4D37;
+}
+	
+.star {
+  color: #e75480;
+}
+	
+.about{
+color: orange
+}
+	
+	
+/* Header */
+.header {
+	font-family:Candara;
+	padding: 30px;
+	letter-spacing:2px;
+	text-shadow: 1px 1px 2px black;
+	text-align: center;
+	color: white;
+
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1px;
+	transition: all 0.75s ease;
+
+	width:100%;
+	height:105vh;
+	display: flex;
+	text-padding:20px;
+	justify-content:left;
+	align-items: center;
+}
+
+
+/* Footer */
+.footer {
+	font-family: arial;
+	padding: 15px;
+	text-align: center;
+	background-color: black;
+	color: yellow;
+	margin-top: 20px;
+	bottom: 0;
+}
+
+
+.change_content:after {
+	content: "";
+	animation: changetext 10s infinite linear;
+	color: white;
+}
+
+@keyframes changetext {
+  0% {
+    content: "Computer Networks";
+  }
+  20% {
+    content: "Software Engineering";
+  }
+ 40%{
+    content: "Information Theory and Coding";
+  }
+  60%{
+    content: "Computational Intelligence";
+  }
+  80%{
+    content: "Database Management Systems";
+  }
+    100%{
+    content: "DAA (Algorithm)";
+  }
+
+}
+
+
+.column {  
+	width: 100%;
+}
+
+
+/* Add a card effect for articles */
+.card {
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+/* display image */
+.displayimg {
+	background-color: gray;
+	margin: auto;
+	width: 80%;
+	padding: 20px;
+	color:white;
+
+}
+
+/* Add a card effect for articles */
+.card {
+	background-color: black;
+	color:white;
+	margin: auto;
+	padding: 20px;
+	margin-top: 15px;
+	width:90%;
+}
+
+
+main{
+	background-color: #F64C72;
+	width:98.5%;
+	padding: 10px;
+	text-align: center;
+
+	text-padding:20px;
+	justify-content:center;
+}
+
+.center {
+	margin: auto;
+	width: 80%;
+	border: 5px solid #FFFF00;
+	padding: 10px;
+	margin-top: 25px;
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="menudropdown">
+  	<ul>
+	<li>Subjects
+		<ul><b>
+			<li><a  class="active" href="C:\Users\KIIT\Desktop\SE\SE_Full Notes.pdf" target="_blank">SE</a></li>
+			<li><a class="active" href= "" target="_blank">CN</a></li>
+			<li><a class="active" href= "" target="_blank">CI</a></li>
+			<li><a class="active" href= "C:\Users\KIIT\Downloads\ITC-Unit-2.pdf" target="_blank">ITC</a></li>
+			<li><a class="active" href= "" target="_blank">DAA</a></li>
+			<li><a class="active" href= "" target="_blank">DBMS</a></li>
+		</b></ul>
+	</li>
+	
+	<li>Lab
+		<ul>
+
+			<li>DAA Lab</li>
+			<li>DBMS Lab</li>
+			<li>CN Lab</li>
+		</ul>
+	</li>
+
+<li>Tnp & CAAS
+		<ul>
+
+			<li>Technical</li>
+			<li>Aptitude</li>
+			<li>English</li>
+		</ul>
+</li>
+
+
+	<li style="float:right"><a class="star" href="uncutregistration.html">Sign Up</a></li>
+    <li style="float:right"><a class="about" href="uncut.html" >About Us</a></li>
+	
+
+	</ul>
+</div>
+
+<div class="header">
+  <h1 style="font-size:45px;">FRESHLY BREWED</h1>
+</div>
+
+
+<main> 
+<div class="center">   
+
+<h2 style="font-size:45px;" >SEMESTER-5 </h2>
+<div class="row">
+  <div class="column" >
+    <div class="card">
+     <h2>|<span class="change_content"> </span> <span style="margin-top: -10px;"> | </span> </h2>
+      <h4>Subjects </h4>
+	  
+      <div class="displayimg" style="height:200px;">
+	<img src="C:\Users\KIIT\Pictures\Untitled Export\SCENERY().jpg"style="width:280px">
+	<img src="C:\Users\KIIT\Pictures\Untitled Export\SCENERY().jpg"style="width:280px">
+	<img src="C:\Users\KIIT\Pictures\Untitled Export\SCENERY().jpg"style="width:280px">
+
+	  </div>
+	  <br>
+	<div class="displayimg" style="height:200px;">
+	<a href="C:\Users\KIIT\Desktop\SE\SE_Full Notes.pdf" target="_blank"><img src="C:\Users\KIIT\Pictures\softwareengg.jpg"style="width:280px"></a>
+	<img src="C:\Users\KIIT\Pictures\Untitled Export\SCENERY().jpg"style="width:280px">
+	<img src="C:\Users\KIIT\Pictures\Untitled Export\SCENERY().jpg"style="width:280px">
+
+	  </div>
+      <p style="text-align:left;" >	&#128509; NOTE:</p>
+      <p style="text-align:left;">Paragraph Freshly Brewed Paragraph Freshly Brewed Paragraph Freshly Brewed Paragraph Freshly Brewed Paragraph Freshly Brewed Paragraph Freshly Brewed</p>
+          </div>
+	
+      <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h4>Title description, Jan 10, 2021</h4>
+      <div class="displayimg" style="height:200px;">Image</div>
+	  
+	  
+      <p>Some text..</p>
+      <p>Paragraph Freshly Brewed Paragraph Freshly Brewed Paragraph Freshly Brewed Paragraph Freshly Brewed Paragraph Freshly Brewed Paragraph Freshly Brewed</p>
+  </div>
+  </div>
+  </div>
+  </div>
+  </main>      
+
+<div class="footer" >
+  <h2>Copyright &copy; 2020, Freshly Brewed </h2>
+  <a href = "https://github.com/Satyajeet21" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/github.png"/></a>
+  
+  <a href = "https://twitter.com/foreverakela_" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
+  <a href = "https://www.instagram.com/____satyajeeeet/" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+
+ <a href = "https://www.youtube.com/playlist?list=PLfqMhTWNBTe0b2nM6JHVCnAkhQRGiZMSJ" target="_blank"><img src="https://img.icons8.com/fluent/48/000000/youtube.png"/></a>
+</div>
+
+
+</body>
+</html>
